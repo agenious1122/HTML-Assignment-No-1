@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #292929;
+    font: 90% Roboto, Arial, sans-serif;
+    font-weight: 300;
+}
+h3 {
+    padding: 5px 20px;
+    margin: 0;
+}
+
+div#header {
+    position: relative;
+}
+
+div#header h1 {
+    height: 100px;
+    line-height: 40px;
+    margin: 0;
+    padding-left: 10px;
+    background:#7cb71c;
+    color:white;
+    text-align: center;
+}
+div#content h2{
+    color: darkgreen;
+}
+
+div#header h5 {
+    height: 100px;
+    line-height: 10px;
+    margin: 0;
+    padding-left: 10px;
+    background:#7cb71c;
+    color:white;
+    text-align: center;
+}
+div#image img{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#addmissionLink a{
+    font-size: x-large;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+/* div#header a {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    padding: 10px;
+    color: #006;
+} */
+
+div#navigation {
+    background:white;
+}
+
+/* div#navigation li {
+    list-style: none;
+} */
+
+div#extra {
+    background: #147FA9;
+}
+
+div#footer {
+    background: #42444e;
+    color: #fff;
+}
+
+div#footer p {
+    padding: 20px 10px;
+}
+
+div#wrapper {
+    float: left;
+    width: 100%;
+}
+
+div#content {
+    margin: 0 25%;
+}
+.p{
+    text-align: center;
+}
+/* div#navigation {
+    float: left;
+    width: 25%;
+    margin-left: -100%;
+} */
+
+/* div#extra {
+    float: left;
+    width: 25%;
+    margin-left: -25%;
+} */
+
+div#footer {
+    clear: left;
+    width: 100%;
+}
